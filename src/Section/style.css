@@ -1,0 +1,26 @@
+.section {
+    max-width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: rgb(187, 186, 186) 0 0 20px;
+}
+
+.section__header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border-bottom: 1px solid #eee;
+    padding: 15px;
+    margin: 0px; 
+} 
+
+@media (max-width: 767px) {
+    .section__header {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }    
+}
+
+.section__title {
+    margin: 0;
+}
