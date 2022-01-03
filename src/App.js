@@ -31,6 +31,13 @@ function App() {
     }));
   };
 
+  const setAllDone = () => {
+    setTasks(task => tasks.map(task => ({
+      ...task,
+      done: true,
+    })));
+  };
+
   return (
     <Container>
       <Header
@@ -52,7 +59,12 @@ function App() {
           />
         }
         extraHeaderContent={
-          <Buttons tasks={tasks} hideDone={hideDone} toggleHideDone={toggleHideDone} />
+          <Buttons
+            tasks={tasks}
+            hideDone={hideDone}
+            toggleHideDone={toggleHideDone}
+            setAllDone={setAllDone}
+          />
         }
       />
     </Container>
