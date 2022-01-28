@@ -25,15 +25,15 @@ function App() {
   return (
     <Container>
       <Header
-        title="Lista zadań"
+        title="To-do List"
       />
       <Section
-        title="Dodaj nowe zadanie"
+        title="Add new task"
         body={<Form addNewTask={addNewTask} />}
       />
 
       <Section
-        title="Lista zadań:"
+        title="Task list:"
         body={
           <Tasks
             tasks={tasks}

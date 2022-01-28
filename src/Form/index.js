@@ -22,10 +22,10 @@ const Form = ({ addNewTask }) => {
             <input
                 value={newTaskContent}
                 className="form__input"
-                placeholder="Wpisz nowe zadanie."
+                placeholder="What you have to do?"
                 onChange={({ target }) => setNewTaskContent(target.value)}
             />
-            <button className="form__button">Dodaj zadanie</button>
+            <button className="form__button">Add new task</button>
         </form>
     );
 };
