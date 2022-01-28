@@ -1,15 +1,24 @@
 # Simple "To-Do List" for everyday tasks in React.js
 
-## Without action yet.
+## Getting Started with Create React App
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Demo
+
+[Link to Demo - click!](https://sewbrzozka.github.io/todos-list-react/)
+
+![Visualisation, How it works](/animationToDoList.gif)
 
 ## Technologies
-- This project was bootstrapped with Create React App.
-- React.js
 - HTML
-- CSS (BEM, Flex, Grid, MediaQ)
-- JavaScript
+- CSS (Flex, Grid)
+- BEM
+- JS
+- React.js
 - Webpack
 - Babel
+- ES6+
 
 ## Available Scripts
 
