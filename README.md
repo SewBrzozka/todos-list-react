@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ![Visualisation, How it works](/animationToDoList.gif)
 
-## Technologies
+## Technologies from the beginning:
 - HTML
 - CSS (Flex, Grid)
 - BEM
@@ -19,6 +19,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Webpack
 - Babel
 - ES6+
+- Custom hooks
+- Styled components
+- Local storage
 
 ## Available Scripts
 
