@@ -11,10 +11,10 @@ export const Input = styled.input`
     flex-grow: 2;
     padding: 10px;
     margin: 16px;
-    border: 1px solid ${({ theme }) => theme.color.gallery};
+    border: 2px solid ${({ theme }) => theme.color.silver};
 
     &:hover {
-    border: 1px solid ${({ theme }) => theme.color.silver};
+    filter: brightness(110%);;
     }
 `
 
