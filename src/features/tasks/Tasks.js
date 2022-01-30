@@ -5,11 +5,8 @@ import Section from "../../common/Section";
 import Header from "../../common/Header";
 import { Container } from "../../common/Container";
 import { useTasks } from "../../useTasks";
-import { useSelector } from "react-redux";
-import { selectTasks } from "./tasksSlice";
 
 function Tasks() {
-  const { tasks } = useSelector(selectTasks);
 
   const {
     // tasks,
