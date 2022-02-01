@@ -6,15 +6,6 @@ import Header from "../../common/Header";
 import { Container } from "../../common/Container";
 
 function Tasks() {
-
-  // const {
-  //   // tasks,
-  //   removeTask,
-  //   toggleTaskDone,
-  //   setAllDone,
-  //   addNewTask,
-  // } = useTasks();
-
   return (
     <Container>
       <Header
