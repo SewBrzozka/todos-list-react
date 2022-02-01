@@ -4,17 +4,16 @@ import Buttons from "./Buttons";
 import Section from "../../common/Section";
 import Header from "../../common/Header";
 import { Container } from "../../common/Container";
-import { useTasks } from "../../useTasks";
 
 function Tasks() {
 
-  const {
-    // tasks,
-    removeTask,
-    toggleTaskDone,
-    setAllDone,
-    addNewTask,
-  } = useTasks();
+  // const {
+  //   // tasks,
+  //   removeTask,
+  //   toggleTaskDone,
+  //   setAllDone,
+  //   addNewTask,
+  // } = useTasks();
 
   return (
     <Container>
@@ -23,22 +22,13 @@ function Tasks() {
       />
       <Section
         title="Add new task"
-        body={<Form addNewTask={addNewTask} />}
+        body={<Form />}
       />
 
       <Section
         title="Task list:"
-        body={
-          <TasksList
-            removeTask={removeTask}
-            toggleTaskDone={toggleTaskDone}
-          />
-        }
-        extraHeaderContent={
-          <Buttons
-            setAllDone={setAllDone}
-          />
-        }
+        body={<TasksList />}
+        extraHeaderContent={<Buttons />}
       />
     </Container>
   );
