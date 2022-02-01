@@ -27,7 +27,7 @@ export const Content = styled.span`
         text-decoration: line-through;
     `}
 
-    @media  (max-width: ${({theme}) => theme.breakpoint.mobileMax}px) {
+    @media  (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     padding-left: 10px;
     padding-right: 10px;
     }

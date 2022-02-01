@@ -19,7 +19,7 @@ const tasksSlice = createSlice({
         },
         removeTask: (state, action) => {
             const index = state.tasks.findIndex(task => task.id === action.payload);
-            state.tasks.splice(index, 1); 
+            state.tasks.splice(index, 1);
         },
         setAllDone: (state, action) => {
             for (const task of state.tasks) {
