@@ -6,7 +6,7 @@ import {
     selectAreTasksEmpty, 
     selectIsEveryTaskDone, 
     selectHideDone, 
-} from "../tasksSlice";
+} from "../../tasksSlice";
 
 const Buttons = () => {
     // const { tasks, hideDone } = useSelector(selectTasksState);

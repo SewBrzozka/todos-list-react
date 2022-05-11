@@ -25,3 +25,6 @@ export const StyledHeader = styled.header`
 export const Title = styled.h2`
     margin: 0;
 `
+export const Body = styled.div`
+    padding: 10px;
+`
