@@ -11,10 +11,14 @@ const task = useSelector(state => getTaskById(state, id));
 
   return (
     <Container>
-      <Header title="Szczegóły zadania"/>
+      <Header title="Task details:"/>
       <Section
-        title={task ? task.content : "Nie znaleziono zadania."}
-        body={<><strong>Ukończono:</strong> {task.done ? "Tak" : "Nie"} </>}
+        title={task ? task.content : "Task not found, sorry."}
+        body={!!task && (
+        <>
+        <strong>Done:</strong> {task.done ? "Yup! 🎉" : "Not yet"} 
+        </>
+        )}
       />
     </Container>
   );
