@@ -6,18 +6,6 @@ export const StyledForm = styled.form`
     flex-wrap: wrap;
 `
 
-export const Input = styled.input`
-    align-self: flex-start;
-    flex-grow: 2;
-    padding: 10px;
-    margin: 16px;
-    border: 2px solid ${({ theme }) => theme.color.silver};
-
-    &:hover {
-    filter: brightness(110%);;
-    }
-`
-
 export const Button = styled.button`
     color: white;
     background-color: ${({ theme }) => theme.color.teal};

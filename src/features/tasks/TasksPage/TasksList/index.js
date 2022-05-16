@@ -4,6 +4,7 @@ import { toggleTaskDone, removeTask, selectHideDone, selectTasksByQuery } from "
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import searchQueryParamName from "../searchQueryParamName";
+import { toTask } from "../../../../routes";
 
 const TasksList = () => {
     const location = useLocation();
@@ -29,10 +30,10 @@ const TasksList = () => {
                         {task.done ? "✓" : ""}
                     </Button>
 
-                    <Content
-                        done={task.done}
-                    >
-                        <Link to={`/zadania/${task.id}`}>{task.content}</Link>
+                    <Content done={task.done}>
+                        <Link to={toTask({ id: task.id })}>
+                            {task.content}
+                        </Link>
                     </Content>
 
                     <Button

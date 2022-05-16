@@ -11,7 +11,7 @@ function Authors() {
             <Section
                 title="Seweryn Brzozowski"
                 body={
-                    <> Witam </>
+                    <> Nazywam się Seweryn Brzozowski  </>
                 }
             />
         </Container>
