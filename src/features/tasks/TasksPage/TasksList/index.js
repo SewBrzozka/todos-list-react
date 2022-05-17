@@ -42,7 +42,7 @@ const TasksList = () => {
                 </Item>
             ))}
         </List>
-    )
+    );
 };
 
 export default TasksList;

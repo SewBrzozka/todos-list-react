@@ -9,12 +9,12 @@ const ButtonExampleTasks = () => {
     return (
         <>
             <Wrapper>
-                <Button 
+                <Button
                     onClick={() => dispatch(fetchExampleTasks())}
                     disabled={loading}
                 >
-                    {loading 
-                        ? "Downloading..." 
+                    {loading
+                        ? "Downloading..."
                         : "Add simple tasks"
                     }
                 </Button >

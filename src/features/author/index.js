@@ -29,6 +29,6 @@ function Authors() {
             />
         </Container>
     );
-}
+};
 
 export default Authors;
